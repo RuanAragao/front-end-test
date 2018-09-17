@@ -1,0 +1,48 @@
+.dv {
+  position: relative;
+  float: left;
+}
+.dv-14 {
+  width: 25%;
+}
+.dv-13 {
+  width: 33.333%;
+}
+.dv-12 {
+  width: 50%;
+}
+body {
+  background-color: #ecf0f1;
+}
+.btn-menu {
+  width: 49px;
+  height: 41px;
+  border: none;
+  text-indent: -9999px;
+  margin-left: 3em;
+  background-image: url("../slices/desktop/menu-icon.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.btn-menu:hover {
+  opacity: 0.5;
+}
+.header-container {
+  padding-top: 1.8em;
+  position: relative;
+  background-color: #3498db;
+  zoom: 1;
+}
+.header-container:after,
+.header-container:before {
+  content: "";
+  display: table;
+}
+.header-container:after {
+  clear: both;
+}
+.header-container .division {
+  width: 33.333%;
+  position: relative;
+  float: left;
+}
