@@ -28,28 +28,30 @@ body {
 .btn-menu:hover {
   opacity: 0.5;
 }
-.header-container {
+.container-full-width {
+  background-color: #3498db;
+}
+.container-header {
   padding-top: 1.2em;
   position: relative;
-  background-color: #3498db;
   zoom: 1;
 }
-.header-container:after,
-.header-container:before {
+.container-header:after,
+.container-header:before {
   content: "";
   display: table;
 }
-.header-container:after {
+.container-header:after {
   clear: both;
 }
-.header-container .link-home {
+.container-header .link-home {
   display: block;
   position: relative;
 }
-.header-container .link-home .logo-image {
+.container-header .link-home .logo-image {
   position: relative;
 }
-.header-container .link-home .logo-slogan {
+.container-header .link-home .logo-slogan {
   color: #d0f2ff;
   font-size: 1.2em;
   position: relative;
