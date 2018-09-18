@@ -35,6 +35,7 @@ body {
     height: 41px;
     border: none;
     text-indent: -9999px;
+    margin-top: 1.6em;
     margin-left: 3em;
     background-image: url('../slices/desktop/menu-icon.png');
     background-repeat: no-repeat;
@@ -44,14 +45,22 @@ body {
     }
 }
 .header-container {
-    padding-top: 1.8em;
+    padding-top: 1.2em;
     position: relative;
     background-color: color-blue-light;
     clearfix()
 
-    .division {
-        width: 33.333%;
+    .link-home {
+        display: block;
         position: relative;
-        float: left;
+
+        .logo-image {
+            position: relative;
+        }
+        .logo-slogan {
+            color: #d0f2ff;
+            font-size: 1.2em;
+            position: relative;
+        }
     }
 }

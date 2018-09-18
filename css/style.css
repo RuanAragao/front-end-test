@@ -19,6 +19,7 @@ body {
   height: 41px;
   border: none;
   text-indent: -9999px;
+  margin-top: 1.6em;
   margin-left: 3em;
   background-image: url("../slices/desktop/menu-icon.png");
   background-repeat: no-repeat;
@@ -28,7 +29,7 @@ body {
   opacity: 0.5;
 }
 .header-container {
-  padding-top: 1.8em;
+  padding-top: 1.2em;
   position: relative;
   background-color: #3498db;
   zoom: 1;
@@ -41,8 +42,15 @@ body {
 .header-container:after {
   clear: both;
 }
-.header-container .division {
-  width: 33.333%;
+.header-container .link-home {
+  display: block;
   position: relative;
-  float: left;
+}
+.header-container .link-home .logo-image {
+  position: relative;
+}
+.header-container .link-home .logo-slogan {
+  color: #d0f2ff;
+  font-size: 1.2em;
+  position: relative;
 }
