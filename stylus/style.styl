@@ -16,6 +16,11 @@ clearfix()
     &:after
         clear both
 
+border-radius(n)
+    -webkit-border-radius n
+    -moz-border-radius n
+    border-radius n
+
 .dv // Division
     position relative
     float left
@@ -35,12 +40,28 @@ body
     border none
     text-indent -9999px
     margin-top 1.6em
-    margin-left 3em
+    margin-left 1em
     background-image url('../slices/desktop/menu-icon.png')
     background-repeat no-repeat
     background-color transparent
     &:hover
         opacity: .5
+
+.btn-social
+    border 1px solid #2481ba
+    background-color white
+    padding .5em 1em
+    box-shadow 0 1px 3px rgba(0,0,0,.1)
+    margin-top 1.5em
+    margin-left 2em
+    display inline-block
+    font-variant small-caps
+    border-radius(5px)
+
+    &-facebook
+        color #335190
+    &-twitter
+        color #00aef2
 
 .container
     &-full-width
@@ -56,9 +77,18 @@ body
         position relative
 
         .logo-image
+            display block
+            float left
             position relative
         
         .logo-slogan 
             color #d0f2ff
             font-size 1.2em
             position relative
+            margin-top 3em
+            margin-left 1em
+            display block
+            float left
+    
+    .header-social
+        text-align right 

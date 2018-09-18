@@ -20,13 +20,32 @@ body {
   border: none;
   text-indent: -9999px;
   margin-top: 1.6em;
-  margin-left: 3em;
+  margin-left: 1em;
   background-image: url("../slices/desktop/menu-icon.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
 .btn-menu:hover {
   opacity: 0.5;
+}
+.btn-social {
+  border: 1px solid #2481ba;
+  background-color: #fff;
+  padding: 0.5em 1em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-top: 1.5em;
+  margin-left: 2em;
+  display: inline-block;
+  font-variant: small-caps;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.btn-social-facebook {
+  color: #335190;
+}
+.btn-social-twitter {
+  color: #00aef2;
 }
 .container-full-width {
   background-color: #3498db;
@@ -49,10 +68,19 @@ body {
   position: relative;
 }
 .container-header .link-home .logo-image {
+  display: block;
+  float: left;
   position: relative;
 }
 .container-header .link-home .logo-slogan {
   color: #d0f2ff;
   font-size: 1.2em;
   position: relative;
+  margin-top: 3em;
+  margin-left: 1em;
+  display: block;
+  float: left;
+}
+.container-header .header-social {
+  text-align: right;
 }
