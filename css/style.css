@@ -50,6 +50,9 @@ body {
 .btn-social-twitter {
   color: #00aef2;
 }
+.block h1 {
+  font-size: 1.8em;
+}
 .block-row {
   display: block;
   position: relative;
