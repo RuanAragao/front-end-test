@@ -47,6 +47,13 @@ body {
 .btn-social-twitter {
   color: #00aef2;
 }
+.block-row {
+  display: block;
+  position: relative;
+}
+.box {
+  padding-top: 5rem;
+}
 .container-full-width {
   background-color: #3498db;
 }
